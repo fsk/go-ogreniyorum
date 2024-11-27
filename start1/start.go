@@ -87,4 +87,24 @@ func main() {
 	-> complex128: 128 bit karmaşık sayıları temsil eder.
 	**/
 
+	//var sayi5 int8 = 150
+	//fmt.Println(sayi5)
+
+	var floatNumber float32 = 10.5
+	fmt.Println(floatNumber)
+
+	var floatNumber2 float64 = 10.123123123123123
+	fmt.Printf("floatNumber2: %.2f", floatNumber2)
+
+	var uintNumber uint8 = 10
+	fmt.Println(uintNumber)
+
+	var uintNumber2 uint16 = 100
+	fmt.Println(uintNumber2)
+
+	var uintNumber3 uint32 = 1000
+	fmt.Println(uintNumber3)
+
+	var uintNumber4 uint64 = 10000
+	fmt.Println(uintNumber4)
 }
